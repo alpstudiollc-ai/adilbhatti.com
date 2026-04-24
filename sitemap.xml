@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
     <loc>https://adilbhatti.com/</loc>
     <lastmod>2026-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <image:image>
-      <image:loc>https://adilbhatti.com/assets/images/author/adil-bhatti.jpg</image:loc>
-      <image:title>Adil Bhatti, author</image:title>
-    </image:image>
   </url>
 
   <url>
@@ -25,14 +20,6 @@
     <lastmod>2026-04-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://adilbhatti.com/assets/images/covers/omar-ali-orulenthia.jpg</image:loc>
-      <image:title>Omar and Ali: The Key to Orulenthia book cover</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://adilbhatti.com/assets/images/alien-device.png</image:loc>
-      <image:title>The triangular alien device from Omar and Ali: The Key to Orulenthia</image:title>
-    </image:image>
   </url>
 
   <url>
@@ -40,26 +27,6 @@
     <lastmod>2026-04-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://adilbhatti.com/assets/images/covers/ancient-aliens-modern-ufos.jpg</image:loc>
-      <image:title>Ancient Aliens to Modern UFOs: The Disclosure Revolution book cover</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://adilbhatti.com/assets/images/akhenaten-amarna.jpg</image:loc>
-      <image:title>Amarna-period Egyptian sculpture from the reign of Akhenaten</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://adilbhatti.com/assets/images/battle-los-angeles-1942.jpg</image:loc>
-      <image:title>The 1942 Battle of Los Angeles</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://adilbhatti.com/assets/images/navy-uap-footage.jpg</image:loc>
-      <image:title>Navy UAP footage officially released by the U.S. Department of Defense</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://adilbhatti.com/assets/images/congressional-uap-hearing.jpg</image:loc>
-      <image:title>2023 Congressional UAP hearing with Ryan Graves, David Grusch, and Commander David Fravor</image:title>
-    </image:image>
   </url>
 
   <url>
