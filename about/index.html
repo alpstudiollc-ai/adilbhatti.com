@@ -461,6 +461,20 @@ section { padding: 88px 0; position: relative; }
   border-radius: 999px;
 }
 
+/* ============ NOTEBOOK COLLECTION ============ */
+.nbcollection { background: var(--c-cream); color: var(--c-ink); }
+.nbcollection .section-eyebrow { background: var(--c-teal); color: #FFF; }
+.nb-chip-list { display: flex; flex-wrap: wrap; gap: 12px; }
+.nb-chip {
+  padding: 12px 20px; font-family: 'Fredoka', sans-serif;
+  font-weight: 600; font-size: 15px;
+  background: #FFF; color: var(--c-ink);
+  border: 3px solid var(--c-ink);
+  border-radius: 999px;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+.nb-chip:hover { transform: translateY(-2px); box-shadow: 4px 4px 0 var(--c-teal); }
+
 /* ============ PRESS / CONTACT ============ */
 .press { background: var(--c-cream); color: var(--c-ink); }
 .press .section-eyebrow { background: var(--c-ink); color: var(--c-accent); }
@@ -631,7 +645,7 @@ section { padding: 88px 0; position: relative; }
 
       <p>That range is not an accident. Living across multiple continents teaches a writer that characters who feel most universal are usually the most specific, that wonder does not need permission, and that a good portal fantasy and a good UFO investigation are asking the exact same question from opposite ends: <em>what is out there, and what does it mean that we keep noticing?</em> When Adil isn't writing, he is usually chasing that same question sideways — jamming on an electric guitar, disappearing into a sprawling video game world, or letting a film take him somewhere new. Music, gaming, and cinema are not distractions from the writing; they are feedback loops for it.</p>
 
-      <p>Reading is its own lane. Adil reads widely across science fiction, history, and investigative non-fiction, and those reading habits show up directly in the work. His young adult novel <em>Omar &amp; Ali: The Key to Orulenthia</em> follows two Muslim American teenage brothers who activate an ancient relic in Tangier, Morocco, and are pulled across space-time to a red-skied alien world. His non-fiction book <em>Ancient Aliens to Modern UFOs: The Disclosure Revolution</em> walks the reader from biblical UFO encounters and the 1561 Nuremberg event through to Congressional UAP disclosure hearings and the USS Nimitz Tic Tac incident. His ten Islamic notebooks carry Bismillah calligraphy on every one of their 200 college-ruled pages, designed for a new generation of Muslim readers who want their stationery to reflect their identity.</p>
+      <p>Reading is its own lane. Adil reads widely across science fiction, history, and investigative non-fiction, and those reading habits show up directly in the work. His young adult novel <em>Omar &amp; Ali: The Key to Orulenthia</em> follows two Moroccan-American teen brothers who find a triangular alien device in a Tangier antiques shop and are pulled through a portal to Orulenthia, a giant alien world ruled by the tyrant Lord Thaarn. His non-fiction book <em>Ancient Aliens to Modern UFOs: The Disclosure Revolution</em> walks the reader from biblical UFO encounters and the 1561 Nuremberg event through to Congressional UAP disclosure hearings and the USS Nimitz Tic Tac incident. His ten Islamic notebooks carry Bismillah calligraphy on every one of their 200 college-ruled pages, designed for a new generation of Muslim readers who want their stationery to reflect their identity.</p>
 
       <p>All of it is published under Alpha Leonis Production Studio LLC, his independent imprint. All of it is available on Amazon in paperback, hardcover, and where applicable Kindle. The books are additionally distributed through IngramSpark to retailers including Barnes &amp; Noble, Walmart, Powell's, Strand Book Store, Booktopia, AbeBooks, and independent bookstores worldwide. Writing is the main lane. Travel, family, food, music, guitar, games, and movies are the rest stops that keep it interesting.</p>
     </div>
@@ -666,6 +680,27 @@ section { padding: 88px 0; position: relative; }
         <p>Ten hardcover and paperback Islamic notebooks for Muslim students, writers, and gift-givers. Each notebook features 200 college-ruled pages topped with Bismillah calligraphy. Perfect for Ramadan and Eid gifts.</p>
         <a href="/#notebooks" class="btn btn-dark">Browse notebooks →</a>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ NOTEBOOK COLLECTION ============ -->
+<section class="nbcollection" aria-labelledby="nbcollection-title">
+  <div class="wrap">
+    <span class="section-eyebrow">The Notebook Collection</span>
+    <h2 class="section-title" id="nbcollection-title">All ten Islamic notebooks.</h2>
+    <p class="section-lead">Each notebook carries 200 college-ruled pages with Bismillah ar-Rahman ar-Raheem on every page. Five themed for Muslim women, five for Muslim men. Explore each one:</p>
+    <div class="nb-chip-list">
+      <a href="/notebooks/hijabi-til-i-die/" class="nb-chip">Hijabi 'til I Die</a>
+      <a href="/notebooks/hijabi-queen/" class="nb-chip">Hijabi Queen</a>
+      <a href="/notebooks/hijabi-gang-where-my-girls-at/" class="nb-chip">Hijabi Gang — Where My Girls At?</a>
+      <a href="/notebooks/hijabi-and-chill/" class="nb-chip">Hijabi and Chill</a>
+      <a href="/notebooks/hijabi-and-unbreakable/" class="nb-chip">Hijabi and Unbreakable</a>
+      <a href="/notebooks/pray-dua-shawarma-repeat/" class="nb-chip">Pray Du'a Shawarma Repeat</a>
+      <a href="/notebooks/that-shawarma-life/" class="nb-chip">That Shawarma Life</a>
+      <a href="/notebooks/its-shawarma-time-ya-salaam/" class="nb-chip">It's Shawarma Time Ya Salaam</a>
+      <a href="/notebooks/halal-hustler/" class="nb-chip">Halal Hustler</a>
+      <a href="/notebooks/salah-shawarma-success/" class="nb-chip">Salah, Shawarma, Success!!</a>
     </div>
   </div>
 </section>
